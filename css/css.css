@@ -1,1 +1,125 @@
+html {
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
+}
 
+body {
+    background-color: #333;
+    color: rgba(51, 51, 51, 1);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(https://c2.staticflickr.com/4/3693/10460205174_9858792ac5_h.jpg);
+    background-position: top;
+}
+
+/* Header and Nav */
+
+div#fixedheader {
+	position: static;
+    float: center;
+	top: 0px;
+	left: 0px;
+	width: auto;
+	color: white;
+	background: green;
+	padding: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    text-align: justify;
+    display: flex;
+    top: 50vh;
+}
+
+.topnav a {
+    float: center;
+    display: block;
+    color: #50C878;
+    text-align: justify;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav a:link {
+    font-size: 17px;
+    font-family: serif;
+}
+
+.topnav a:hover {
+    background-color: whitesmoke;
+    color: black;  
+}
+
+.topnav a:active {
+    background-color: #4CAF50;
+    color: #50C878;
+}
+
+.topnav a:visited {
+    color: rgb(21, 152, 74);
+    text-decoration: none;
+}
+
+/* Content */
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: -40px;
+    font-size: 60px;
+}
+
+p {
+    width: 90vw;
+    margin: 0vh 5vw;
+    text-align: justify;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+p#one {
+    position: relative;
+    top: 60vh;
+    color: white;
+    background-color: rgba(25, 25, 112, .7);
+    padding: 20px;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+p#two {
+    text-align: left;
+    position: relative;
+    top: 8px;
+}
+
+p#three {
+    text-align: right;
+    position: relative;
+    bottom: 46px;
+}
+
+/* Footer */
+
+div#fixedfooter {
+    float: center;
+	left:0px;
+	width:100%;
+    height: 2vh;
+	color:#CCC;
+	background:#333;
+	padding: 6px 0px;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    top: 96.8vh;
+}
