@@ -1,4 +1,4 @@
-# travelersGuideToSeatle.github.io
+# travelersGuide
 A project that I worked on for school.
 
 
