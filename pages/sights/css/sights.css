@@ -1,0 +1,138 @@
+body {
+    background-color: darkslategrey;
+    color:azure;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header and Nav */
+
+div#fixedheader {
+	position: static;
+    float: center;
+	top: 0px;
+	left: 0px;
+	width: auto;
+	color: white;
+	background: green;
+	padding: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    text-align: justify;
+    display: flex;
+    top: 50vh;
+}
+
+.topnav a {
+    float: center;
+    display: block;
+    color: #50C878;
+    text-align: justify;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav a:link {
+    font-size: 17px;
+    font-family: serif;
+}
+
+.topnav a:hover {
+    background-color: whitesmoke;
+    color: black;  
+}
+
+.topnav a:active {
+    background-color: #4CAF50;
+    color: #50C878;
+}
+
+.topnav a:visited {
+    color: rgb(21, 152, 74);
+    text-decoration: none;
+}
+
+/* Content */
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: -40px;
+    font-size: 60px;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: -40px;
+    font-size: 60px;
+}
+
+h1 {
+    font-size: 78px;
+    top: -38px;
+    padding: 8px 10px;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+h3 {
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h4 {
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: left; 
+}
+
+h5 {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+p {
+    font-size:20px;
+    background-color: darkslategrey;
+}
+
+img {
+    max-width: 60%; 
+    max-height: 40%;
+    display:block;
+    margin:auto;
+}
+
+/* Footer */
+
+div#fixedfooter {
+	position:static;
+    float: center;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	color: #CCC;
+	background: #333;
+	padding: 8px 0px;
+    text-align: center;
+    font-size: 15px;
+}
