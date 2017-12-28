@@ -5,27 +5,27 @@ html {
 
 body {
     background-color: #333;
+    background-repeat: no-repeat;
     color: rgba(51, 51, 51, 1);
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
-    background-image: url(https://c2.staticflickr.com/4/3693/10460205174_9858792ac5_h.jpg);
     background-position: top;
 }
 
 /* Header and Nav */
 
 div#fixedheader {
-	position: static;
+    position: static;
     float: center;
-	top: 0px;
-	left: 0px;
-	width: auto;
-	color: white;
-	background: green;
-	padding: 20px;
-    font-size: 50px;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    color: white;
+    background: green;
+    padding: 20px;
+    font-size: 5vw;
     text-align: center;
 }
 
@@ -34,7 +34,7 @@ div#fixedheader {
     overflow: hidden;
     text-align: justify;
     display: flex;
-    top: 50vh;
+    top: 50px;
 }
 
 .topnav a {
@@ -44,19 +44,19 @@ div#fixedheader {
     text-align: justify;
     padding: 10px 10px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 4vw;
     margin-left: auto;
     margin-right: auto;
 }
 
 .topnav a:link {
-    font-size: 17px;
-    font-family: serif;
+    font-size: 1.5vw;
+    font-family: sans-serif;
 }
 
 .topnav a:hover {
     background-color: whitesmoke;
-    color: black;  
+    color: black; 
 }
 
 .topnav a:active {
@@ -110,7 +110,7 @@ p#three {
 
 /* Footer */
 
-div#fixedfooter {
+footer {
     float: center;
 	left:0px;
 	width:100%;
